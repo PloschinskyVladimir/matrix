@@ -40,9 +40,11 @@
 }
 
 .header {
-    background-image: linear-gradient(90deg, #307FF9 16.35%, #55BDFF 96.01%);
+    background-image: url(../image/header/bigromb.png);
     max-width: 1920px;
-    height: 555.885px;        
+    height: 733.179px;
+    background-repeat: no-repeat;
+    background-size: contain        
 }
 .figure {
     position: relative;
@@ -53,7 +55,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 60px;
+    margin: 0 80px;
+    padding-top: 23px;
 }
 .header__menu {
     display: flex;
@@ -96,7 +99,6 @@
     background-position: center;
     width: 31px;
     height: 31px;
-    background-color: #307FF9
 }
 .header__contacts_mail {
     font-family: 'Stolzl Regular';
@@ -110,13 +112,66 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #307FF9;
     width: 31px;
     height: 31px;
 }
-
-
-
+.header__menu_block {
+    width: 144px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.60);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    font-family: 'Stolzl Medium';
+    font-size: 18px;
+    line-height: 100%;
+    margin-right: 40px;
+}
+.header__menu_block:hover {
+    color: #307FF9;
+    background-color: #fff;
+    transition: 0.5s;
+    text-shadow: none;
+    border: 2px solid #ACCCFD;
+}
+.video {
+    width: 640px;
+    height: 487.489px;
+    position: relative;
+}
+.monitor {
+    margin-left: 180px;
+    width: 640px;
+    height: 487.489px;
+    z-index: 2;
+    position: absolute;
+    top: 62px;
+}
+.gif {
+    width: 603.234px;
+    height: 339.064px;
+    position: absolute;
+    left: 198px;
+    z-index: 3;
+    top: 84px;
+    border-radius: 9px;
+}
+.rombmonitor {
+    position: absolute;
+    left: 181.67px;
+    top: 30.33px;
+    
+}
+.header__main-content {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+} 
 
 .section__about {
     display: flex;
