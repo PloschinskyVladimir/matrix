@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ООО "Матрица"</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    
+    <header class="header">
+        <img src="./image/header/bigromb.png" class='headeromb' alt="">
+        <img src="./image/header/header__top.png" alt="" class="topromb">
+        <div class="header__content">
+            <div class="header__logo">
+                <div class="logo"></div>
+                <div class="matrix">МАТРИЦА</div>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="menu">
+                <i class='bx bx-menu' id="open-menu"></i>
+                <i class='bx bx-x' id="close-menu"></i>
+            </label>
+            <div class="header__menu"><!--
+                <div class="header__menu_block header__menu_block_main">Главная</div>
+                <div class="header__menu_block header__menu_block_about">О нас</div>
+                <div class="header__menu_block header__menu_block_license">Лицензия</div>
+                <div class="header__menu_block header__menu_block_contact">Контакты</div>
+                <div class="header__menu_block header__menu_block_service">Услуги</div>
+                -->
+                <a href="#home" style="--i:0" class="header__menu_block">Главная</a>
+                <a href="#about" style="--i:1" class="header__menu_block">О нас</a>
+                <a href="#gallery" style="--i:2" class="header__menu_block">Лицензии</a>
+                <a href="#services" style="--i:3" class="header__menu_block">Услуги</a>
+                <a href="#contacts" style="--i:4" class="header__menu_block">Контакты</a>
+            </div>
+            <div class="header__contacts">
+                <div class="header__contact header__contacts_telephone-number">+7 (4722) 777-270</div>
+                <div class="header__contact header__contacts_telephone-icon header_icon"></div>
+                <div class="header__contact header__contacts_mail">matrix31@bk.ru</div>
+                <div class="header__contact header__contacts_mail-icon header_icon"></div>
+            </div>
+        </div>
+        <div class="header__main-content">
+            <div class="video">
+                <img src="./image/header/rombmonitor.png" alt="" class="rombmonitor">
+                <img src="./image/header/monitor.png" alt="монитор" class="monitor">
+                <img src="./image/header/secure.gif" alt="" class="gif">
+                
+            </div>
+            <div class="header__main-content_title-subtitle">
+                <div class="title-block">
+                    <h1 class="title-block__info_title">ООО «Матрица»</h1>
+                    <p class="title-block__info_subtitle">Орган по аттестации объектов информатизации по 
+                                                требованиям ФСТЭК России и ФСБ</p>
+                    <button class="button">Подробнее</button>
+                </div>
+                <div class="code">
+                    <img src="./image/header/qr-code.png" alt='qr-код организации' class="code__qr-code">
+                    <p class="code__info">карточка предприятия</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section__about" id="#about">
+        <h2 class="section__title">О нас</h2>
+        <img src="./image/about.svg" alt="" class="about__blue">
+        
+        <div class="advantages">
+            <img src="./image/romb.svg" alt="" class="figure">
+            <div class="romb-figure">
+                <img src="./image/romb_left.svg" alt="" class="figure">
+                <img src="./image/romb_center.svg" alt="" class="figure">
+                <img src="./image/romb_right.svg" alt="" class="figure">
+            </div>
+            <div class="advantages__block">
+                <div class="one">
+                    <div class="one__one">
+                        <h3 class="title">15+</h3>
+                        <p class="subtitle">лет на рынке IT</p>
+                        <img src="./image/line.svg" alt="" class="line">
+                        <p class="content">Мы гордимся своим многолетним накопленным опытом, 
+                                        благодаря которому наша компания стала эталоном качества в 
+                                        области информационной безопасности.</p>
+                    </div>
+                </div>
+                <div class="two">
+                    <div class="one__one">
+                        <h3 class="title">7</h3>
+                        <p class="subtitle">лицензий ФСТЭК и ФСБ</p>
+                        <img src="./image/line.svg" alt="" class="line">
+                        <p class="content">Наличие лицензий от регуляторов 
+                            позволяет нам оказывать большой спектр услуг, к которым предъявляются особые требования.</p>
+                    </div>
+                </div>
+                <div class="three">
+                    <div class="one__one">
+                        <h3 class="title">500+</h3>
+                        <p class="subtitle">объектов под защитой</p>
+                        <img src="./image/line.svg" alt="" class="line">
+                        <p class="content">Имеем  уже более 500 объектов информатизации и 
+                            5 тыс. рабочих мест, успешно аттестованных нами по требованиям защиты информации.</p>
+                    </div>
+                </div>
+                <div class="four">
+                    <div class="one__one">
+                        <h3 class="title">13+</h3>
+                        <p class="subtitle">партнеров</p>
+                        <img src="./image/line.svg" alt="" class="line">
+                        <p class="content">Более 13 прочных партнерских 
+                            отношений подкрепляют нашу репутацию 
+                            надежости и профессионализма в сфере IT. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ourservices">
+        <h2 class="ourservices__title">Наши услуги</h2> 
+        <div class="tabs">
+            <div id="ib" class="tabs_btn tabs_btn__active">Информационная безопасность</div>
+            <div id="tso" class="tabs_btn">Технические системы безопасности</div>
+            <div id="educate" class="tabs_btn">Повышение квалификации</div>
+        </div>
+        <div class="ourservices__content">
+            <div class="ourservices__list ourservices__list_active">
+                <div class="box_list box_list__active"><p class='box_list__text'>Аттестация объектов информатизации</p></div>
+                <div class="box_list"><p class="box_list__text">Проектирование систем защиты информации</p></div>
+                <div class="box_list"><p class="box_list__text">Внедрение систем защиты информации</p></div>
+                <div class="box_list"><p class="box_list__text">Оказание методической помощи в разработке документации по информационной безопасности</p></div>
+                <div class="box_list"><p class="box_list__text">Проведение специальных проверок и специальных исследований</p></div>
+                <div class="box_list"><p class="box_list__text">Техническое сопровождение систем защиты информации</p></div>
+            </div> 
+            <div class="ourservices__list">
+                <div class="box_list"><p class='box_list__text'>Проектирование систем видеонаблюдения и систем охранной и пожарной сигнализации</p></div>
+                <div class="box_list"><p class="box_list__text">Внедрение систем видеонаблюдения</p></div>
+                <div class="box_list"><p class="box_list__text">Внедрение систем охранной, пожарной сигнализации и систем видеонаблюдения</p></div>
+                <div class="box_list"><p class="box_list__text">Техническое обслуживание охранной, пожарной сигнализации и систем видеонаблюдения</p></div>
+            </div>
+            <div class="ourservices__list">
+                <div class="box_list"><p class='box_list__text'>Для специалистов, работающих в области обеспечения безопасности персональных данных</p></div>
+                <div class="box_list"><p class="box_list__text">Для специалистов, работающих в области обеспечения безопасности значимых объектов критической информационной инфраструктуры</p></div>
+                <div class="box_list"><p class="box_list__text">Для специалистов, работающих в области защиты информации ограниченного доступа, 
+                    не содержащей сведений, составляющих государственную тайну, 
+                    в органах государственной власти Российской Федерации</p></div>
+            </div>
+            <img id='img_ourservices' class="picture" src=" ">
+        </div>
+    </section>
+    <section class="uoradvantages">
+        <img src="./image/rombb.svg" alt="" class="rombb">
+        <h2 class="section__title">Наши преимущества</h2>
+        <img src="./image/about.svg" alt="" class="about__blue">
+        <div class="ouradvantages__content">
+            <div class="abs"><img src="./image/abs.png" alt="" class="img__abs"></div>
+            <div class="ouradvantages__content_blocks">
+                <div class="ouradvantages__content_blocks_content ouradvantages__content_blocks_content-first">
+                    <div class="block_number block_number_first">1</div>
+                    <div class="block">
+                        <div class="ouradvantages__content_content">
+                            <h3 class="ouradvantages__content_title">Первое преимущество</h3>
+                            <img src="./image/blue_line1.svg" alt="" class="blue_line">
+                            <p class="ouradvantages__content_subtitle">Каждый из нас понимает очевидную вещь: 
+                            граница обучения кадров однозначно определяет каждого участника 
+                            как способного принимать собственные решения.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ouradvantages__content_blocks_content ouradvantages__content_blocks_content-second">
+                    <div class="block_number block_number_second">2</div>
+                    <div class="block">
+                        <div class="ouradvantages__content_content">
+                            <h3 class="ouradvantages__content_title">Второе преимущество</h3>
+                            <img src="./image/blue_line1.svg" alt="" class="blue_line">
+                            <p class="ouradvantages__content_subtitle">Каждый из нас понимает очевидную вещь: 
+                            граница обучения кадров однозначно определяет каждого участника 
+                            как способного принимать собственные решения.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="ouradvantages__content_blocks_content ouradvantages__content_blocks_content-third">
+                        <div class="block_number block_number_third">3</div>
+                        <div class="block">
+                            <div class="ouradvantages__content_content">
+                                <h3 class="ouradvantages__content_title">Третье преимущество</h3>
+                                <img src="./image/blue_line1.svg" alt="" class="blue_line">
+                                <p class="ouradvantages__content_subtitle">Каждый из нас понимает очевидную вещь: 
+                                граница обучения кадров однозначно определяет каждого участника 
+                                как способного принимать собственные решения.</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="ouradvantages__content_blocks_content ouradvantages__content_blocks_content-fourth">
+                    <div class="block_number block_number_fourth">4</div>
+                    <div class="block">
+                        <div class="ouradvantages__content_content">
+                            <h3 class="ouradvantages__content_title">Четвертое преимущество</h3>
+                            <img src="./image/blue_line1.svg" alt="" class="blue_line">
+                            <p class="ouradvantages__content_subtitle">Каждый из нас понимает очевидную вещь: 
+                            граница обучения кадров однозначно определяет каждого участника 
+                            как способного принимать собственные решения.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="license">
+        <h2 class="license__title">Наши лицензии</h2>
+        <img src="./image/white.svg" alt="" class="about__blue">
+        <img src="./image/license/top-romb.svg" alt="" class="license__romb top-romb">
+        <img src="./image/license/left-romb.svg" alt="" class="license__romb left-romb">
+        <img src="./image/license/center-romb.svg" alt="" class="license__romb center-romb">
+        <img src="./image/license/right-romb.svg" alt="" class="license__romb right-romb">
+        <img src="./image/license/bottom-romb.svg" alt="" class="license__romb bottom-romb">
+        <img src="./image/license/topleft-romb.svg" alt="" class="license__romb topleft-romb">
+        <div class="license__slider">
+            <img src="./image/left.svg" alt="" class="left" id="leftBtn">
+            <img src="./image/fstek.png" alt="" class="fstek">
+            <div class="container">
+                <div class="gallery">
+                    <div class="gallery__content">
+                        <h3 class="slide-title">Лицензия ФСТЭК России</h3>
+                            <p class="slide-subtitle">серия ГТ 0261 № 013115 от 5 октября 2022 г.</p>
+                            <img src="./image/slideline.svg" alt="" class="slideline">
+                            <p class="slide-text">На осуществление мероприятий и (или) 
+                            оказание услуг в области защиты 
+                            государственной тайны 
+                            (в части технической защиты информации)</p>       
+                    </div>
+                </div>
+                <div class="gallery">  
+                    <div class="gallery__content">
+                        <h3 class="slide-title">Лицензия ФСТЭК России</h3>
+                            <p class="slide-subtitle">серия ГТ 0261 № 013118 от 5 октября 2022 г.</p>
+                            <img src="./image/slideline.svg" alt="" class="slideline">
+                            <p class="slide-text">На проведение работ, 
+                                связанных с созданием средств защиты информации </p>  
+                    </div>
+                </div>
+                <div class="gallery">  
+                    <div class="gallery__content">
+                        <h3 class="slide-title">Лицензия УФСБ РФ</h3>
+                            <p class="slide-subtitle">серия ГТ № 0101591 от 25 ноября 2021 г.</p>
+                            <img src="./image/slideline.svg" alt="" class="slideline">
+                            <p class="slide-text">На проведение работ связанных с 
+                                использованием сведений составляющих государственную тайну</p>  
+                    </div>
+                </div>
+                <div class="gallery">  
+                    <div class="gallery__content">
+                        <h3 class="slide-title">Лицензия ФСТЭК России</h3>
+                            <p class="slide-subtitle">серия ГТ 0240 № 012055 от 17 февраля 2021 г.</p>
+                            <img src="./image/slideline.svg" alt="" class="slideline">
+                            <p class="slide-text">Лицензия на осуществление мероприятий и (или) 
+                                оказание услуг в области защиты государственной тайны (в части 
+                                противодействия иностранным и техническим разведкам).</p>  
+                    </div>
+                </div>
+                <div class="gallery">  
+                    <div class="gallery__content">
+                        <h3 class="slide-title">Лицензия УФСБ РФ</h3>
+                            <p class="slide-subtitle">серия ГТ № 0121910 от 28 апреля 2020 г.</p>
+                            <img src="./image/slideline.svg" alt="" class="slideline">
+                            <p class="slide-text">На осуществление мероприятий и (или) 
+                                оказание услуг в области защиты государственной тайны</p>  
+                    </div>
+                </div>
+                <div class="gallery">  
+                    <div class="gallery__content">
+                        <h3 class="slide-title">Лицензия ФСТЭК России</h3>
+                            <p class="slide-subtitle">серия КИ 0122 № 006055 от 15 декабря 2014 г.</p>
+                            <img src="./image/slideline.svg" alt="" class="slideline">
+                            <p class="slide-text">На деятельность по разработке и 
+                                производству средств защиты конфиденциальной информации</p>  
+                    </div>
+                </div>
+                <div class="gallery">  
+                    <div class="gallery__content">
+                        <h3 class="slide-title">Лицензия ФСТЭК России</h3>
+                            <p class="slide-subtitle">серия КИ 0122 № 006054 от 15 декабря 2014 г.</p>
+                            <img src="./image/slideline.svg" alt="" class="slideline">
+                            <p class="slide-text">На деятельность по технической 
+                                защите конфиденциальной информации</p>  
+                    </div>
+                </div>
+            </div>
+            <img src="./image/right.svg" alt="" class="right" id="rightBtn">
+        </div>
+        <div class="image"><img src="./image/license.png" alt="" class="license__image"></div>
+    </section>
+
+    <script src="./js/app.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
